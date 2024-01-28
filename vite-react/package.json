@@ -1,0 +1,48 @@
+{
+  "name": "paper-todo",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "node-sass": "^9.0.0",
+    "papercss": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2",
+    "styled-components": "^3.1.6",
+    "uuid": "^3.2.1",
+    "vite": "^5.0.12",
+    "vite-plugin-svgr": "^4.2.0",
+    "vite-tsconfig-paths": "^4.3.1"
+  },
+  "scripts": {
+    "start": "webpack --mode production",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "start:vite": "vite",
+    "build:vite": "vite build",
+    "serve:vite": "vite preview"
+  },
+  "description": "![Giphy](https://media.giphy.com/media/26DNeo2xDmfj3plbW/giphy.gif)",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.9.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
